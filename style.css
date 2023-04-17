@@ -1,22 +1,22 @@
 * {
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
-    font-size:16px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
     font-family: 'Red Hat Display';
 }
 
 .meet-header-container {
-    text-align:center;
-    margin:4rem 0;
+    text-align: center;
+    margin: 4rem 0;
 }
 
 /* beginning of hero-section */
 .hero-section {
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 
@@ -27,141 +27,143 @@
 
 
 .middle-hero-section {
-    order:3;
-    text-align:center;
+    order: 3;
+    text-align: center;
     margin: 4rem 2rem;
 }
 
 .middle-hero-section h1 {
-    font-size:40px;
-    text-transform:capitalize;
-    margin-bottom:3rem;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 3rem;
 }
 
 .middle-hero-section p {
-    color:#87879D;
-    line-height:2;
-    margin:15px;
+    color: #87879D;
+    line-height: 2;
+    margin: 15px;
 }
 
-.hero-section-download-button    {
-    background-color:#4D96A9;
+.hero-section-download-button {
+    background-color: #4D96A9;
 }
 
 .hero-section-download-button span {
-    color:#8FE3F9;
+    color: #8FE3F9;
 }
 
 .hero-section-question-button,
 .footer-download-button {
-    background-color:#855FB1;
-    
+    background-color: #855FB1;
+
 }
 
 .middle-hero-section button,
 .right-footer-side button {
-    border:none;
-    padding:20px;
-    border-radius:30px;
-    font-weight:900;
-    color:#fff;
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    font-weight: 900;
+    color: #fff;
 }
 
 .button-alignment {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    gap:15px;
-    margin-bottom:5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5rem;
 }
+
 /* end of hero-section */
 
 
 /* beginning of info section */
 .info-section {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-info-section,
 .bottom-info-number {
-    border:2px solid #87879D;
-    color:#87879D;
-    border-radius:50%;
-    padding:20px;
-    max-width:56px;
-    height:56px;
-    position:relative;
+    border: 2px solid #87879D;
+    color: #87879D;
+    border-radius: 50%;
+    padding: 20px;
+    max-width: 56px;
+    height: 56px;
+    position: relative;
 }
 
 .top-info {
-    margin-bottom:4rem;
+    margin-bottom: 4rem;
 }
 
 .top-info-section::before,
 .bottom-info-number::before {
-    content:"";
-    display:block;
-    border-left:2px solid #87879D;
-    height:70px;
-    position:absolute;
+    content: "";
+    display: block;
+    border-left: 2px solid #87879D;
+    height: 70px;
+    position: absolute;
 }
 
 .bottom-info-number {
-    margin-top:6rem;
-    top:35px;
-    background-color:#fff;
+    margin-top: 6rem;
+    top: 35px;
+    background-color: #fff;
 }
 
 .top-info-section::before {
-    left:25px;
-    bottom:54px;
+    left: 25px;
+    bottom: 54px;
 }
 
 .bottom-info-number::before {
-    left:25px;
-    bottom:54px;
+    left: 25px;
+    bottom: 54px;
 }
 
 .middle-info-section {
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    grid-template-rows:2fr;
-    gap:40px;
-    margin:6rem 0;
-    justify-content:center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr;
+    gap: 40px;
+    margin: 6rem 0;
+    justify-content: center;
 }
 
 .middle-info-section img {
     width: clamp(150px, 50%, 500px);
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .bottom-info-section {
-    text-align:center;
-    padding:10px;
+    text-align: center;
+    padding: 10px;
 }
 
 .bottom-info-section .info-header {
-    color:#4D96A9;
-    letter-spacing:4px;
-    font-weight:900;
-    text-transform:uppercase;
-    margin:20px 0;
+    color: #4D96A9;
+    letter-spacing: 4px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 20px 0;
 }
 
 .bottom-info-section h2 {
-    font-size:40px;
-    margin:20px 0;
+    font-size: 40px;
+    margin: 20px 0;
 }
 
 .bottom-info-section .info-details {
-    color:#87879D;
-    line-height:1.5;
-    margin:20px 0;
+    color: #87879D;
+    line-height: 1.5;
+    margin: 20px 0;
 }
+
 /* end of info section */
 
 
@@ -171,36 +173,75 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color:rgb(77, 150, 168);
-    background-blend-mode:multiply;
-    color: #fff; 
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    text-align:center;
-    min-height:20vh;
-    align-items:center;
-    padding:4rem 5rem;
+    background-color: rgb(77, 150, 168);
+    background-blend-mode: multiply;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    min-height: 20vh;
+    align-items: center;
+    padding: 4rem 5rem;
 }
 
 footer div {
-    margin:15px 0;
+    margin: 15px 0;
 }
 
 .footer-download-button span {
-    color:#D9B8FF;
+    color: #D9B8FF;
 }
 
 .left-footer-side h2 {
-    font-size:40px;
+    font-size: 40px;
 }
 
 .left-footer-side {
-    margin-top:20px;
-    
+    margin-top: 20px;
+
 }
 
 .middle-footer-side {
-    line-height:2;
+    line-height: 2;
 }
+
 /* end of footer */
+
+
+
+/* media query section for tablet */
+
+@media (min-width:800px) {
+
+    .left-hero-section img,
+    .right-hero-section img {
+        width: clamp(150px, 300px, 800px);
+    }
+
+    .middle-hero-section {
+        max-width:500px;
+    }
+
+    .button-alignment {
+        flex-direction:row;
+        justify-content:center;
+        margin-top:2.5rem;
+    }
+
+    .middle-info-section {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        justify-content: center;
+        margin:5rem 4rem;
+    }
+
+    .middle-info-section img {
+        width: clamp(150px, 100%, 500px);
+    }
+
+    .bottom-info-section {
+        max-width:570px;
+    }
+
+}
