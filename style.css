@@ -22,7 +22,7 @@
 
 .left-hero-section img,
 .right-hero-section img {
-    width:230px
+    width: clamp(150px, 180px, 500px);
 }
 
 
@@ -131,10 +131,12 @@
     grid-template-rows:2fr;
     gap:40px;
     margin:6rem 0;
+    justify-content:center;
 }
 
 .middle-info-section img {
-    width:200px;
+    width: clamp(150px, 50%, 500px);
+    margin:0 auto;
 }
 
 .bottom-info-section {
@@ -176,9 +178,13 @@ footer {
     flex-wrap:wrap;
     justify-content:center;
     text-align:center;
-    height:20vh;
+    min-height:20vh;
     align-items:center;
-    padding:0 5rem;
+    padding:4rem 5rem;
+}
+
+footer div {
+    margin:15px 0;
 }
 
 .footer-download-button span {
