@@ -133,7 +133,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 2fr;
-    gap: 40px;
+    grid-row-gap: 40px;
     margin: 6rem 0;
     justify-content: center;
 }
@@ -240,7 +240,7 @@ footer div {
     }
 
     .middle-info-section img {
-        width: clamp(150px, 100%, 500px);
+        width: clamp(150px, 80%, 500px);
     }
 
     .bottom-info-section {
