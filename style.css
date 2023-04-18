@@ -286,10 +286,12 @@ footer div {
 
     .hero-section-download-button:hover {
         background-color: #8FE3F9;
+        pointer:cursor;
     }
 
     .hero-section-question-button:hover {
         background-color: #B18BDD;
+        pointer:cursor;
     }
 
     .hero-section {
