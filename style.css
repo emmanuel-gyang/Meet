@@ -273,7 +273,7 @@ footer div {
     }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1366px) {
 
     footer {
         justify-content: space-around;
@@ -295,11 +295,14 @@ footer div {
     }
 
     .hero-section {
-        display: grid;
+        /* display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
         margin-bottom: 5rem;
-        grid-gap:50px;
+        grid-gap:50px; */
+        flex-direction:row;
+        margin-bottom:5rem;
+        gap:15px;
     }
 
     .left-hero-section {
