@@ -302,11 +302,11 @@ footer div {
         grid-gap:50px; */
         flex-direction:row;
         margin-bottom:5rem;
-        gap:15px;
+        gap:50px;
     }
 
     .left-hero-section {
-            width: 100%;
+            width: 80%;
             background-image: url('./assets/desktop/image-hero-left.png');
             background-repeat: no-repeat;
             background-size: cover;
@@ -314,7 +314,7 @@ footer div {
     }
 
        .right-hero-section {
-            width: 100%;
+            width: 80%;
             background-image: url('./assets/desktop/image-hero-right.png');
             height:40vh;
             background-repeat: no-repeat;
