@@ -134,7 +134,6 @@ h2 {
   color: var(--light-cyan);
 }
 
-.btn-2,
 .btn-3 span {
   color: var(--light-violet);
 }
@@ -322,6 +321,7 @@ footer {
     object-fit:cover;
   }
 
+
   .hero-img-left {
     display:none;
   }
@@ -352,6 +352,13 @@ footer {
     width:100%;
     height:100%;
     object-fit:cover;
+  }
+
+  .btn {
+    width:193px;
+    height: 56px;
+    flex-direction:row; 
+    margin:auto;
   }
 
   .hero-img-left {
