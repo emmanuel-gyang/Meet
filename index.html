@@ -15,64 +15,100 @@
 
 <body>
 
+  <!-- header logo -->
   <header>
-    <div class="meet-header-container">
-      <img src="assets/logo.svg" alt="meet-logo" class="meet-header-logo">
+    <div class="header-container">
+      <a href="#">
+        <img src="assets/logo.svg" alt="">
+      </a>
     </div>
   </header>
 
-  <div class="hero-section">
-    <div class="left-hero-section">
+  <!-- begin hero-section -->
+  <main class="hero-section">
+    <div class="mobile-container">
+      <img src="./assets/tablet/image-hero.png" alt="">
     </div>
-    <div class="middle-hero-section">
-      <h1>Group chat for everyone</h1>
-      <p>Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
-      <div class="button-alignment">
-        <button class="hero-section-download-button">Download <span>V1.3</span></button>
-        <button class="hero-section-question-button">What is it?</button>
+    <div class="hero-container">
+      <div class="hero-img hero-img-left"></div>
+      <div class="hero-text">
+        <h1>Group Chat for Everyone</h1>
+        <p>Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+        <div class="btn">
+          <button class="btn-1">Download <span>v1.3</span></button>
+          <button class="btn-2">What is it?</button>
+        </div>
       </div>
+      <div class="hero-img hero-img-right"></div>
     </div>
-    <div class="right-hero-section">
-    </div>
-  </div>
+  </main>
+  <!-- end hero-section -->
 
 
-  <div class="info-section">
+  <!-- first section divider -->
+  <section class="divider" aria-label="second divider">
     <div class="top-info-section">
       <p>01</p>
     </div>
-    <div class="middle-info-section">
-      <img src="assets/desktop/image-woman-in-videocall.jpg" alt="woman-in-video-call">
-      <img src="assets/desktop/image-women-videochatting.jpg" alt="woman-in-video-chatting">
-      <img src="assets/desktop/image-man-texting.jpg" alt="man-texting">
-      <img src="assets/desktop/image-men-in-meeting.jpg" alt="men-in-meeting">
+  </section>
+  <!-- end first divider -->
+
+  <!-- gallery grid -->
+  <section class="photo-gallery-wrapper" aria-label="photo gallery">
+    <div class="gallery-grid">
+      <div class="gallery-container">
+        <img src="./assets/desktop/image-woman-in-videocall.jpg" alt="woman during video call">
+      </div>
+      <div class="gallery-container">
+        <img src="./assets/desktop/image-women-videochatting.jpg" alt="weman videochatting">
+      </div>
+
+
+      <div class="gallery-container">
+        <img src="./assets/desktop/image-man-texting.jpg" alt="man on a video call">
+      </div>
+      <div class="gallery-container">
+        <img class="d" src="./assets/desktop/image-men-in-meeting.jpg" alt="men on a video call">
+      </div>
     </div>
-    <div class="bottom-info-section">
-      <p class="info-header">Built for modern use</p>
-      <h2>Smarter meetings, all in one place</h2>
-      <p class="info-details">Send messages, share files, show your screen, and record your meetings — all in one
-        workspace. Control who
-        can join with invite-only team access, data encryption, and data export.</p>
+  </section>
+  <!-- end gallery grid -->
+
+  <!-- explainer section wrapper -->
+  <section class="explainer-section-wrapper flex" aria-label="product explainer">
+    <div class="explainer-section-container">
+      <span class="overline">Built for modern use</span>
+      <h2 class="h2">Smarter meetings, all in one place</h2>
+      <p class="body-text">Send messages, share files, show your screen, and record your meetings — all in one
+        workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
     </div>
+  </section>
+  <!-- end of explainer section wrapper -->
+
+  <!-- second section divider -->
+  <section class="divider second-divider" aria-label="second divider">
     <div class="bottom-info-number">
       <p>02</p>
     </div>
-  </div>
+  </section>
+  <!-- end second divider -->
 
-
+  <!-- footer section -->
   <footer>
-    <div class="left-footer-side">
-      <h2>Experience more together</h2>
-    </div>
-    <div class="middle-footer-side">
-      <p>Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
-    </div>
-    <div class="right-footer-side">
-      <button class="footer-download-button">Download <span>v1.3</span></button>
+    <div class="footer-container">
+      <div class="left-footer-content">
+        <h4>Experience more together</h4>
+      </div>
+      <div class="middle-footer-content">
+        <p> Stay connected with reliable HD meetings and unlimited one-on-one
+          and group video sessions.</p>
+      </div>
+      <div class="right-footer-content">
+        <button class="btn-3">Download <span>v1.3</span></button>
+      </div>
     </div>
   </footer>
-
-
+  <!-- end of footer section -->
 
 </body>
 
