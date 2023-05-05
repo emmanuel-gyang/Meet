@@ -322,7 +322,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  /* #tablet view */
   .mobile-container {
     display: block;
     width: 100vw;
@@ -373,8 +372,7 @@ footer {
 
 }
 
-@media screen and (max-width: 375px) {
-  /* mobile view */
+@media screen and (max-width: 365px) {
   .mobile-container {
     display: block;
     width: 100vw;
