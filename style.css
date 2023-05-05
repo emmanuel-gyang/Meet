@@ -386,10 +386,10 @@ footer {
   }
 
   .btn {
-    /* width: 193px;
-    height: 56px;
-    margin: auto; */
+    /* text-align:center; */
     flex-direction: column;
+    justify-content: center;
+    align-items:center;
   }
 
   .hero-img-left {
@@ -400,21 +400,22 @@ footer {
     display: none;
   }
 
-  .footer-container {
-    text-align: center;
+  footer {
+    min-height: 600px;
   }
 
-  footer {
-    background-image: url('./assets/mobile/image-footer.jpg');
-    /* height: 500px; */
+  .footer-container {
+    flex-direction:column;
+    text-align:center;
+    gap:35px;
   }
 
   .left-footer-content h4 {
-    font-size: 32px;
+    font-size: 22px;
   }
 
   .gallery-grid {
-    grid-template-columns: repeat(1, 2fr);
+    grid-template-columns: repeat(2, 2fr);
 
   }
 }
