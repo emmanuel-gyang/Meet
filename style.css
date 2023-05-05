@@ -374,7 +374,9 @@ footer {
 
 }
 
+
 @media screen and (max-width: 365px) {
+
   .mobile-container {
     display: block;
     width: 100vw;
