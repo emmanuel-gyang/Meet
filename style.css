@@ -290,8 +290,7 @@ footer {
   position: relative;
   z-index: 0;
   width: 100%;
-  /* height: 310px; */
-  width: 100vw;
+  height: 310px;
 }
 
 .footer-container {
