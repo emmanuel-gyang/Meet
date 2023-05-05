@@ -77,11 +77,11 @@ h2 {
 }
 
 .hero-text {
-  max-width: 540px;
+  max-width:500px;
 }
 
 .hero-text h1 {
-  font-size: 64px;
+  font-size: 4em;
   line-height: 1.2;
   margin-bottom: 20px;
 }
@@ -224,7 +224,6 @@ h2 {
   display: flex;
   justify-content: center;
   margin-bottom: 54px;
-  /* margin: 44px 0 54px; */
 }
 
 .gallery-grid {
@@ -290,8 +289,9 @@ footer {
   color: #fff;
   position: relative;
   z-index: 0;
-  width: 100vw;
+  width: 100%;
   height: 310px;
+  width: 100vw;
 }
 
 .footer-container {
@@ -302,12 +302,13 @@ footer {
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  padding:70px;
-  /* gap:20px; */
+  padding:70px 50px;
 }
 
 .footer-container div {
-  max-width: 350px;
+  max-width: 570px;
+  padding:0 30px;
+  /* padding:30px 190px; */
 }
 
 
@@ -361,7 +362,6 @@ footer {
   footer {
     background-image: url('./assets/tablet/image-footer.jpg');
     weight: 100%;
-    height: 500px;
   }
 
   .left-footer-content h4 {
@@ -374,7 +374,9 @@ footer {
 
 }
 
-@media screen and (max-width: 350px) {
+
+@media screen and (max-width: 365px) {
+
   .mobile-container {
     display: block;
     width: 100vw;
@@ -408,7 +410,7 @@ footer {
 
   footer {
     background-image: url('./assets/mobile/image-footer.jpg');
-    height: 500px;
+    /* height: 500px; */
   }
 
   .left-footer-content h4 {
@@ -420,3 +422,6 @@ footer {
 
   }
 }
+
+
+
