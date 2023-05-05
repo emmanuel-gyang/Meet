@@ -322,6 +322,7 @@ footer {
   line-height: 26px;
 }
 
+
 @media screen and (max-width: 768px) {
   .mobile-container {
     display: block;
@@ -418,5 +419,42 @@ footer {
   .gallery-grid {
     grid-template-columns: repeat(2, 2fr);
 
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  footer {
+    min-height: 500px;
+  }
+  .footer-container {
+    flex-direction:column;
+    text-align:center;
+    gap:15px;
+  }
+
+  .mobile-container {
+    display: block;
+    width: 100vw;
+    margin-bottom: 80px;
+  }
+
+  .mobile-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+  }
+
+
+  .hero-img-left {
+    display: none;
+  }
+
+  .hero-img-right {
+    display: none;
   }
 }
