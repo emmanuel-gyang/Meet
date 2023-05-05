@@ -322,7 +322,7 @@ footer {
   line-height: 26px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
   .mobile-container {
     display: block;
     width: 100vw;
@@ -374,7 +374,7 @@ footer {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 350px) {
   .mobile-container {
     display: block;
     width: 100vw;
