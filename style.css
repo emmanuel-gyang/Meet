@@ -290,7 +290,7 @@ footer {
   position: relative;
   z-index: 0;
   width: 100%;
-  height: 310px;
+  /* height: 310px; */
   width: 100vw;
 }
 
@@ -390,7 +390,7 @@ footer {
   .btn {
     width: 193px;
     height: 56px;
-    flex-direction: row;
+    flex-direction: column;
     margin: auto;
   }
 
