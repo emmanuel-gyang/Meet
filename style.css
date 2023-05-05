@@ -308,7 +308,6 @@ footer {
 .footer-container div {
   max-width: 570px;
   padding:0 30px;
-  /* padding:30px 190px; */
 }
 
 
@@ -388,10 +387,10 @@ footer {
   }
 
   .btn {
-    width: 193px;
+    /* width: 193px;
     height: 56px;
+    margin: auto; */
     flex-direction: column;
-    margin: auto;
   }
 
   .hero-img-left {
@@ -416,7 +415,7 @@ footer {
   }
 
   .gallery-grid {
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(1, 2fr);
 
   }
 }
