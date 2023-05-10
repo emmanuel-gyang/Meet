@@ -324,7 +324,7 @@ footer {
   line-height: 26px;
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .mobile-container {
     display: block;
     width: 100vw;
@@ -377,7 +377,7 @@ footer {
 
 }
 
-@media screen and (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 767px) {
   .mobile-container {
     display: block;
     width: 100vw;
@@ -426,7 +426,7 @@ footer {
 }
 
 
-@media (min-width: 768px) and (max-width: 1440px) {
+/* @media (min-width: 768px) and (max-width: 1440px) {
   footer {
     padding:auto;
   }
@@ -441,5 +441,5 @@ footer {
     font-size: 48px;
   }
 
-}
+} */
 
